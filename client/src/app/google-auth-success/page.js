@@ -2,7 +2,7 @@
 
 import { useSearchParams, useRouter } from "next/navigation"
 import { useEffect, useContext } from "react"
-import { Authcontext } from "@/context/Authcontext"
+import { Authcontext } from "../Context/Authcontext"
 import toast from "react-hot-toast"
 
 const GoogleAuthSuccess = () => {

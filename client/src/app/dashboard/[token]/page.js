@@ -1,6 +1,6 @@
 "use client";
 
-import { Main_component } from '@/app/component/Home/Main_component';
+import { Main_component } from '../../component/Home/Main_component';
 import React, { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import jwt_decode from "jwt-decode";
